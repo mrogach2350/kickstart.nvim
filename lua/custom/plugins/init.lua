@@ -3,6 +3,6 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  vim.keymap.set('n', 'H', '<CMD>BufferLineCyclePrev<CR>', { desc = 'Prev Buffer' }),
-  vim.keymap.set('n', 'L', '<CMD>BufferLineCycleNext<CR>', { desc = 'Next Buffer' }),
+  vim.keymap.set('n', 'H', '<CMD>bprevious<CR>', { desc = 'Prev Buffer' }),
+  vim.keymap.set('n', 'L', '<CMD>bNext<CR>', { desc = 'Next Buffer' }),
 }
